@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Categories = () => {
   return (
-    <div className="px-4 md:px-28">
+    <div className="container mx-auto px-4 md:px-16">
       <div className="flex justify-between items-center my-8">
         <div className="text-3xl md:text-4xl" style={{ fontWeight: "600" }}>
           Best Categories
