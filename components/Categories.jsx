@@ -13,7 +13,7 @@ const Categories = () => {
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
         {/* Left Side */}
         <div className="flex flex-col md:w-full space-y-4">
-          <div className="flex bg-gradient-to-r from-[#f4f4f4] to-[#DEDBD6] h-1/2 pl-4 pt-4 rounded-md w-full">
+          <div className="flex justify-between bg-gradient-to-r from-[#f4f4f4] to-[#DEDBD6] h-1/2 pl-4 pt-4 rounded-md w-full">
             <div className="flex flex-col justify-between">
               <div>
                 <div className="text-4xl">Sports Wear</div>
@@ -34,7 +34,7 @@ const Categories = () => {
               <Image src={"/lady.svg"} width={320} height={320} alt="lady" />
             </div>
           </div>
-          <div className="flex bg-gradient-to-r from-[#f4f4f4] to-[#DEDBD6] h-1/2 pl-4 pt-4 rounded-md w-full">
+          <div className="flex justify-between bg-gradient-to-r from-[#f4f4f4] to-[#DEDBD6] h-1/2 pl-4 pt-4 rounded-md w-full">
             <div className="flex flex-col justify-between">
               <div>
                 <div className="text-4xl">Sports Wear</div>
