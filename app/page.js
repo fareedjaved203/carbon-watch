@@ -4,6 +4,7 @@ import Categories from "@/components/Categories";
 import Elegant from "@/components/Elegant";
 import Experience from "@/components/Experience";
 import Features from "@/components/Features";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Menu from "@/components/Menu";
 import Newsletter from "@/components/Newsletter";
@@ -22,6 +23,7 @@ export default function Home() {
       <Elegant />
       <Accordion />
       <Newsletter />
+      <Footer />
     </main>
   );
 }
