@@ -13,7 +13,7 @@ const AccordionCard = () => {
   };
 
   return (
-    <div className="min-h-screen">
+    <div>
       <div className="w-full py-4">
         <div className="w-full space-y-6">
           <AccordionItem

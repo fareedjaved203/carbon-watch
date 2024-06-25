@@ -36,7 +36,7 @@ const Features = () => {
                 Eleifend nec morbi tellus vitae leo nunc.
               </div>
             </div>
-            <div className="flex flex-col space-y-4">
+            <div className="flex flex-col space-y-4 pt-4 pb-8 md:pb-0">
               <div className="flex space-x-4 items-center">
                 <Image
                   src={"/menuIcon.svg"}

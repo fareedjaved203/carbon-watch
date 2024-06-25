@@ -6,6 +6,7 @@ import Experience from "@/components/Experience";
 import Features from "@/components/Features";
 import Header from "@/components/Header";
 import Menu from "@/components/Menu";
+import Newsletter from "@/components/Newsletter";
 import Products from "@/components/Products";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Features />
       <Elegant />
       <Accordion />
+      <Newsletter />
     </main>
   );
 }
