@@ -13,8 +13,8 @@ const ExperienceCard = ({ title, description }) => {
             alt="experience"
           />
         </div>
-        <div className="text-2xl">{title}</div>
-        <div>{description}</div>
+        <div className="clash-display text-2xl">{title}</div>
+        <div className="font-montserrat">{description}</div>
       </div>
     </div>
   );

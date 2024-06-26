@@ -14,7 +14,10 @@ const AccordionCard = () => {
 
   return (
     <div>
-      <div className="w-full py-4">
+      <div
+        className="clash-display w-full py-4 text-[#161616]"
+        style={{ lineHeight: "26px" }}
+      >
         <div className="w-full space-y-6">
           <AccordionItem
             question="What types of hosting plans do you offer?"
@@ -54,14 +57,14 @@ const AccordionItem = ({ question, answer, id, expanded, toggleAccordion }) => {
   return (
     <div className="bg-gradient-to-r from-[#FCFCFC] to-[#F5F5F5] rounded-xl">
       <button
-        className="question-btn flex w-full items-start gap-x-5 justify-between rounded-lg text-left text-lg font-bold text-slate-800 focus:outline-none p-5"
+        className="question-btn flex w-full items-start gap-x-5 justify-between rounded-lg text-left text-lg font-bold focus:outline-none p-5"
         onClick={toggleAccordion}
         aria-expanded={expanded}
         aria-controls={id}
       >
         <span>{question}</span>
         <svg
-          className={`mt-1.5 md:mt-0 flex-shrink-0 transform h-5 w-5 text-black ${
+          className={`mt-1.5 md:mt-0 flex-shrink-0 transform h-5 w-5 ${
             expanded ? "rotate-180" : ""
           }`}
           xmlns="http://www.w3.org/2000/svg"

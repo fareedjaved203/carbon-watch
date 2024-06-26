@@ -9,6 +9,8 @@ module.exports = {
     fontFamily: {
       inter: ["var(--font-inter)"],
       montserrat: ["var(--font-montserrat)"],
+      promptFont: ["var(--font-prompt)"],
+      poppins: ["var(--font-poppins)"],
     },
     extend: {
       backgroundImage: {

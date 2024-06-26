@@ -10,7 +10,7 @@ const Footer = () => {
             <Image src={"/whiteIcon.svg"} width={30} height={30} alt="icon" />
           </div>
           <div
-            className="text-gray-400 text-center text-wrap md:w-3/4"
+            className="clash-display-regular text-gray-400 text-center text-wrap md:w-3/4"
             style={{ fontSize: "17px" }}
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
         </div>
         <div
-          className="text-gray-200 flex leading-loose space-x-4 md:space-x-10 justify-center items-center flex-wrap"
+          className="clash-display-regular text-gray-200 flex leading-loose space-x-4 md:space-x-10 justify-center items-center flex-wrap"
           style={{ fontSize: "15px" }}
         >
           <div className="hover:underline cursor-pointer">Campaigns</div>

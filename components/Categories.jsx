@@ -5,18 +5,26 @@ const Categories = () => {
   return (
     <div className="container mx-auto px-4 md:px-16">
       <div className="flex justify-between items-center mt-20 mb-16">
-        <div className="text-3xl md:text-4xl" style={{ fontWeight: "600" }}>
+        <div
+          className="clash-display text-3xl md:text-4xl"
+          style={{ fontWeight: "600" }}
+        >
           Best Categories
         </div>
-        <div className="text-gray-600 underline">See All</div>
+        <div
+          className="text-[#8E8E8E] underline font-montserrat cursor-pointer"
+          style={{ fontWeight: "600" }}
+        >
+          See All
+        </div>
       </div>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
         {/* Left Side */}
         <div className="flex flex-col md:w-full space-y-4">
           <div className="flex justify-between bg-gradient-to-r from-[#f4f4f4] to-[#DEDBD6] h-1/2 pl-4 pt-4 rounded-md w-full">
             <div className="flex flex-col justify-between">
-              <div>
-                <div className="text-4xl">Sports Wear</div>
+              <div className="mt-4 ml-2">
+                <div className="clash-display text-4xl">Sports Wear</div>
                 <div className="font-montserrat">
                   Lorem ipsum dolor sit amet consectetur
                 </div>
@@ -36,8 +44,8 @@ const Categories = () => {
           </div>
           <div className="flex justify-between bg-gradient-to-r from-[#f4f4f4] to-[#DEDBD6] h-1/2 pl-4 pt-4 rounded-md w-full">
             <div className="flex flex-col justify-between">
-              <div>
-                <div className="text-4xl">Sports Wear</div>
+              <div className="mt-4 ml-2">
+                <div className="clash-display text-4xl">Sports Wear</div>
                 <div className="font-montserrat">
                   Lorem ipsum dolor sit amet consectetur
                 </div>
@@ -59,8 +67,8 @@ const Categories = () => {
 
         {/* Right Side */}
         <div className="flex flex-col justify-between w-full bg-gradient-to-r from-[#f4f4f4] to-[#DEDBD6] px-4 pt-4 rounded-xl">
-          <div>
-            <div className="text-4xl">Smart Watches</div>
+          <div className="mt-4 ml-2">
+            <div className="clash-display text-4xl">Smart Watches</div>
             <div className="font-montserrat">
               Lorem ipsum dolor sit amet consectetur
             </div>

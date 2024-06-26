@@ -6,10 +6,13 @@ const Accordion = () => {
     <div className="container mx-auto px-4 md:px-16">
       <div className="space-y-10">
         <div className="space-y-4">
-          <div className="text-2xl md:text-4xl" style={{ fontWeight: "600" }}>
+          <div
+            className="clash-display text-2xl md:text-4xl"
+            style={{ fontWeight: "600" }}
+          >
             What is in your Head?
           </div>
-          <div>
+          <div className="font-monserrat text-lg">
             Lorem ipsum dolor sit amet consectetur. Eleifend nec morbi tellus
             vitae leo nunc.
           </div>
